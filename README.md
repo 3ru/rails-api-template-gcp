@@ -9,7 +9,7 @@
   google:
     service: GCS
     project: hoge
-    credentials: <%= Rails.root.join("../key/gcpkey.json") %>
+    credentials: <%= Rails.root.join("./key/gcpkey.json") %>
     bucket: hoge
   ```
 
