@@ -1,24 +1,13 @@
-# README
+## Upload image to gcp clound storage by using rails api
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+make api key and put it on `/app/key/[gcpkey.json]`
+(for me gitignored key file so)
 
-Things you may want to cover:
+- Can also switch to saving to local.
+```
+  - config.active_storage.service = :google
+  + config.active_storage.service = :local
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Prob
+- Cannot be saved at the same time as normal data.
