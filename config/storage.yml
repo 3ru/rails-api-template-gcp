@@ -17,9 +17,9 @@ local:
 # Remember not to checkin your GCS keyfile to a repository
 google:
   service: GCS
-  project: kedamono
+  project: projectname
   credentials: <%= Rails.root.join("./key/yourgcpkey.json") %>
-  bucket: kedamono
+  bucket: bucketname
 
 # Use rails credentials:edit to set the Azure Storage secret (as azure_storage:storage_access_key)
 # microsoft:
